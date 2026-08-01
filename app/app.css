@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+   themes: retro --default;
+ }
+
+body {
+  background-color: rgb(245, 234, 208);
+}
+
+@theme {
+  --font-lobster: "Lobster", cursive;
+}
