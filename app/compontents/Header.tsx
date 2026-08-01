@@ -1,4 +1,4 @@
-import Logo from "~/src/logo.png";
+import Logo from "~/src/Logo.png";
 import { Menu } from "lucide-react";
 
 const Header = ({ children }: { children: React.ReactNode }) => {
