@@ -2,8 +2,9 @@
 import clock from "~/src/features-clock.png";
 import circle from "~/src/features-circle.png";
 import wheat from "~/src/features-wheat.png";
+import { type FeaturesTranslations } from "~/routes/home";
 
-const Features = () => {
+const Features = ({ translations }: { translations: FeaturesTranslations }) => {
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3 bg-[rgb(247,240,226)] rounded-3xl border-2 border-[rgb(207,188,146)]">
@@ -35,11 +36,11 @@ const Features = () => {
           </div>
 
           <h3 className="uppercase mt-4 text-lg font-semibold text-[rgb(76,87,52)]">
-            kohapeal valmistatud
+            {translations.freshlyMade.title}
           </h3>
 
           <p className="mt-2 text-pretty text-gray-700">
-            Varske pasta ja hoolikalt valitud lisandid.
+            {translations.freshlyMade.description}
           </p>
         </div>
 
@@ -71,11 +72,11 @@ const Features = () => {
           </div>
 
           <h3 className="uppercase mt-4 text-lg font-semibold text-[rgb(76,87,52)]">
-            kvaliteetne tooraine
+            {translations.qualityIngredients.title}
           </h3>
 
           <p className="mt-2 text-pretty text-gray-700">
-            Selge maitse, aus koostis ja hooajaline valik.
+            {translations.qualityIngredients.description}
           </p>
         </div>
 
@@ -89,11 +90,11 @@ const Features = () => {
           </div>
 
           <h3 className="uppercase mt-4 text-lg font-semibold text-[rgb(76,87,52)]">
-            Kiire teenindus
+            {translations.fastService.title}
           </h3>
 
           <p className="mt-2 text-pretty text-[rgb(114,101,79)]">
-            Restorani tunne mugavas tanavatoidu vormis.
+            {translations.fastService.description}
           </p>
         </div>
       </div>

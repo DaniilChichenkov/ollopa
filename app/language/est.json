@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "tagline": "Värske käsitööpasta",
+    "locationShort": "Aia 10, Narva-Jõesuu"
+  },
+  "navigation": {
+    "home": "Avaleht",
+    "menu": "Menüü",
+    "about": "Meist",
+    "location": "Asukoht",
+    "viewMenu": "Vaata menüüd"
+  },
+  "hero": {
+    "eyebrow": "Värske käsitööpasta",
+    "title": "Restorani maitse. Tänavatoidu vabadus.",
+    "address": "Aia 10, Narva-Jõesuu",
+    "description": "Lihtne, värske ja aus pasta otse sinu ette — soe toit, kvaliteetne tooraine ja mõnus Narva-Jõesuu meeleolu.",
+    "viewMenuButton": "Vaata menüüd",
+    "findUsButton": "Leia meid"
+  },
+  "benefits": {
+    "freshlyMade": {
+      "title": "Kohapeal valmistatud",
+      "description": "Värske pasta ja hoolikalt valitud lisandid."
+    },
+    "qualityIngredients": {
+      "title": "Kvaliteetne tooraine",
+      "description": "Selge maitse, aus koostis ja hooajaline valik."
+    },
+    "fastService": {
+      "title": "Kiire teenindus",
+      "description": "Restorani tunne mugavas tänavatoidu vormis."
+    }
+  },
+  "menu": {
+    "title": "Menüü",
+    "subtitle": "Koht hooajaliselt muutuva pastamenüü jaoks",
+    "defaultCategory": "Klassikud",
+    "itemPlaceholder": {
+      "name": "Pasta nimetus",
+      "price": "00",
+      "description": "Lühike kirjeldus, kaste ja peamised koostisosad",
+      "imageAlt": "Menüü pilt"
+    },
+    "fullMenuInstagramButton": "Täielik menüü Instagramis"
+  },
+  "story": {
+    "eyebrow": "Ollopa lugu",
+    "title": "Värske pasta. Selge maitse.",
+    "description": "Ollopa ühendab käsitööpasta kvaliteedi ja tänavatoidu vaba, kiire rütmi.",
+    "quote": "Restorani kvaliteet, tänavatoidu hind.",
+    "instagramButton": "Meie Instagram"
+  },
+  "gallery": {
+    "title": "Galerii",
+    "subtitle": "Vaata meie toite",
+    "defaultImageAlt": "Pasta"
+  },
+  "instagram": {
+    "eyebrow": "Tänane menüü ja pakkumised",
+    "handle": "@ollopa_pasta",
+    "followText": "Jälgi meid Instagramis",
+    "openButton": "Ava Instagram",
+    "logoAlt": "Instagrami logo"
+  },
+  "findUs": {
+    "title": "Leia meid",
+    "addressTitle": "Aadress",
+    "address": "Aia 10, Narva-Jõesuu",
+    "openingHoursTitle": "Lahtiolekuajad",
+    "openingHours": "E–P, kellaajad lisatakse hiljem",
+    "contactTitle": "Kontakt",
+    "contact": "Telefon · @ollopa_pasta",
+    "description": "Siin saab kuvada lahtiolekuajad, hooajalise info ja teejuhise kaardile.",
+    "mapsButton": "Ava Google Maps"
+  },
+  "footer": {
+    "address": "Aia 10, Narva-Jõesuu",
+    "tagline": "Värske käsitööpasta",
+    "instagramHandle": "@ollopa_pasta",
+    "logoAlt": "Ollopa logo"
+  },
+  "languages": {
+    "est": "Eesti",
+    "eng": "Inglise",
+    "rus": "Vene"
+  }
+}

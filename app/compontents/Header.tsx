@@ -1,7 +1,16 @@
 import Logo from "~/src/Logo.png";
 import { Menu } from "lucide-react";
 
-const Header = ({ children }: { children: React.ReactNode }) => {
+import { type NavigationTranslations } from "~/routes/home";
+import { Link } from "react-router";
+
+const Header = ({
+  children,
+  translations,
+}: {
+  children: React.ReactNode;
+  translations: NavigationTranslations;
+}) => {
   return (
     <div className="drawer">
       <input
@@ -30,22 +39,22 @@ const Header = ({ children }: { children: React.ReactNode }) => {
               {/* Navbar menu content here */}
               <li>
                 <a className="uppercase text-[rgb(97,63,33)] font-semibold">
-                  Avaleht
+                  {translations.home}
                 </a>
               </li>
               <li>
                 <a className="uppercase text-[rgb(97,63,33)] font-semibold">
-                  Menuu
+                  {translations.menu}
                 </a>
               </li>
               <li>
                 <a className="uppercase text-[rgb(97,63,33)] font-semibold">
-                  Meist
+                  {translations.about}
                 </a>
               </li>
               <li>
                 <a className="uppercase text-[rgb(97,63,33)] font-semibold">
-                  Asukoht
+                  {translations.location}
                 </a>
               </li>
 
@@ -57,25 +66,34 @@ const Header = ({ children }: { children: React.ReactNode }) => {
                   </summary>
                   <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-auto p-2 shadow-sm">
                     <li>
-                      <a className="uppercase text-[rgb(97,63,33)] font-semibold">
+                      <Link
+                        to="/est"
+                        className="uppercase text-[rgb(97,63,33)] font-semibold"
+                      >
                         est <span className="fi fi-ee"></span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="uppercase text-[rgb(97,63,33)] font-semibold">
+                      <Link
+                        to="/eng"
+                        className="uppercase text-[rgb(97,63,33)] font-semibold"
+                      >
                         eng <span className="fi fi-gb"></span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="uppercase text-[rgb(97,63,33)] font-semibold">
+                      <Link
+                        to="/rus"
+                        className="uppercase text-[rgb(97,63,33)] font-semibold"
+                      >
                         rus <span className="fi fi-ru"></span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li className="bg-[rgb(76,87,52)] rounded-3xl text-[rgb(253,248,235)] py-2">
-                <a className="uppercase">Vaata Menuud</a>
+                <a className="uppercase">{translations.viewMenu}</a>
               </li>
             </ul>
           </div>
@@ -92,19 +110,19 @@ const Header = ({ children }: { children: React.ReactNode }) => {
         <ul className="menu menu-xl gap-y-5 min-h-full w-80 p-4 bg-[rgb(252,247,232)]">
           {/* Sidebar content here */}
           <li>
-            <a className="uppercase">Avaleht</a>
+            <a className="uppercase">{translations.home}</a>
           </li>
           <li>
-            <a className="uppercase">Menuu</a>
+            <a className="uppercase">{translations.menu}</a>
           </li>
           <li>
-            <a className="uppercase">Meist</a>
+            <a className="uppercase">{translations.about}</a>
           </li>
           <li>
-            <a className="uppercase">Asukoht</a>
+            <a className="uppercase">{translations.location}</a>
           </li>
           <li className="bg-[rgb(76,87,52)] rounded-xl text-[rgb(253,248,235)] py-2">
-            <a className="uppercase">Vaata Menuud</a>
+            <a className="uppercase">{translations.viewMenu}</a>
           </li>
 
           {/* Language selection */}
@@ -115,19 +133,28 @@ const Header = ({ children }: { children: React.ReactNode }) => {
               </summary>
               <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-full p-2 shadow-sm">
                 <li>
-                  <a className="uppercase text-[rgb(97,63,33)] font-semibold">
+                  <Link
+                    to="/est"
+                    className="uppercase text-[rgb(97,63,33)] font-semibold"
+                  >
                     est <span className="fi fi-ee"></span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="uppercase text-[rgb(97,63,33)] font-semibold">
+                  <Link
+                    to="/eng"
+                    className="uppercase text-[rgb(97,63,33)] font-semibold"
+                  >
                     eng <span className="fi fi-gb"></span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="uppercase text-[rgb(97,63,33)] font-semibold">
+                  <Link
+                    to="/rus"
+                    className="uppercase text-[rgb(97,63,33)] font-semibold"
+                  >
                     rus <span className="fi fi-ru"></span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </details>

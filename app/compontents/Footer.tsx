@@ -1,7 +1,8 @@
 import logo from "~/src/logo-transparent.png";
 import insta from "~/src/insta-footer.png";
+import { type FooterTranslations } from "~/routes/home";
 
-const Footer = () => {
+const Footer = ({ translations }: { translations: FooterTranslations }) => {
   return (
     <footer className="bg-[rgb(76,88,52)]">
       <div className="mx-auto max-w-5xl px-4 pt-16 sm:px-6 lg:px-8">
@@ -15,13 +16,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-px md:grid-cols-3 items-center">
           <div className="flex flex-col items-center p-4">
             <p className="text-[rgb(253,248,235)] uppercase font-semibold">
-              Aia 10, Narva Joesuu
+              {translations.address}
             </p>
           </div>
 
           <div className="flex flex-col items-center p-4">
             <p className="text-[rgb(253,248,235)] uppercase font-semibold">
-              Varske kasitoo pasta
+              {translations.tagline}
             </p>
           </div>
 

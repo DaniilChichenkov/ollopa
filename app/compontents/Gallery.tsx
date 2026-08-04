@@ -1,17 +1,18 @@
 import { Diamond } from "lucide-react";
 import example from "~/src/hero.jpeg";
+import { type GalleryTranslations } from "~/routes/home";
 
-const Gallery = () => {
+const Gallery = ({ translations }: { translations: GalleryTranslations }) => {
   return (
     <section className="border-[rgb(207,188,146)] border-t">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <header className="text-center w-full md:w-6/12 md:mx-auto">
           <h2 className="text-3xl font-bold sm:text-3xl uppercase text-[rgb(97,63,33)]">
-            Galerii
+            {translations.title}
           </h2>
 
           <p className="mx-auto mt-4 max-w-md  uppercase text-[rgb(177,102,55)]">
-            Vaata meie toite
+            {translations.subtitle}
           </p>
 
           <div className="divider before:bg-[rgb(184,138,72)] after:bg-[rgb(184,138,72)]">

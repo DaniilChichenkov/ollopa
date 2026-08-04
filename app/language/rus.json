@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "tagline": "Свежая паста ручной работы",
+    "locationShort": "Aia 10, Нарва-Йыэсуу"
+  },
+  "navigation": {
+    "home": "Главная",
+    "menu": "Меню",
+    "about": "О нас",
+    "location": "Расположение",
+    "viewMenu": "Посмотреть меню"
+  },
+  "hero": {
+    "eyebrow": "Свежая паста ручной работы",
+    "title": "Вкус ресторана. Свобода уличной еды.",
+    "address": "Aia 10, Нарва-Йыэсуу",
+    "description": "Простая, свежая и настоящая паста прямо перед вами — горячая еда, качественные ингредиенты и приятная атмосфера Нарва-Йыэсуу.",
+    "viewMenuButton": "Посмотреть меню",
+    "findUsButton": "Найти нас"
+  },
+  "benefits": {
+    "freshlyMade": {
+      "title": "Готовим на месте",
+      "description": "Свежая паста и тщательно подобранные добавки."
+    },
+    "qualityIngredients": {
+      "title": "Качественные ингредиенты",
+      "description": "Чистый вкус, понятный состав и сезонный выбор."
+    },
+    "fastService": {
+      "title": "Быстрое обслуживание",
+      "description": "Ресторанное впечатление в удобном формате уличной еды."
+    }
+  },
+  "menu": {
+    "title": "Меню",
+    "subtitle": "Здесь представлено наше сезонно обновляемое меню пасты",
+    "defaultCategory": "Классика",
+    "itemPlaceholder": {
+      "name": "Название пасты",
+      "price": "00",
+      "description": "Краткое описание, соус и основные ингредиенты",
+      "imageAlt": "Изображение блюда"
+    },
+    "fullMenuInstagramButton": "Полное меню в Instagram"
+  },
+  "story": {
+    "eyebrow": "История Ollopa",
+    "title": "Свежая паста. Чистый вкус.",
+    "description": "Ollopa объединяет качество пасты ручной работы со свободным и быстрым ритмом уличной еды.",
+    "quote": "Ресторанное качество по цене уличной еды.",
+    "instagramButton": "Наш Instagram"
+  },
+  "gallery": {
+    "title": "Галерея",
+    "subtitle": "Посмотрите на наши блюда",
+    "defaultImageAlt": "Паста"
+  },
+  "instagram": {
+    "eyebrow": "Сегодняшнее меню и предложения",
+    "handle": "@ollopa_pasta",
+    "followText": "Подписывайтесь на нас в Instagram",
+    "openButton": "Открыть Instagram",
+    "logoAlt": "Логотип Instagram"
+  },
+  "findUs": {
+    "title": "Найти нас",
+    "addressTitle": "Адрес",
+    "address": "Aia 10, Нарва-Йыэсуу",
+    "openingHoursTitle": "Время работы",
+    "openingHours": "Пн–Вс, время будет указано позднее",
+    "contactTitle": "Контакты",
+    "contact": "Телефон · @ollopa_pasta",
+    "description": "Здесь можно указать время работы, сезонную информацию и ссылку на маршрут по карте.",
+    "mapsButton": "Открыть Google Maps"
+  },
+  "footer": {
+    "address": "Aia 10, Нарва-Йыэсуу",
+    "tagline": "Свежая паста ручной работы",
+    "instagramHandle": "@ollopa_pasta",
+    "logoAlt": "Логотип Ollopa"
+  },
+  "languages": {
+    "est": "Эстонский",
+    "eng": "Английский",
+    "rus": "Русский"
+  }
+}

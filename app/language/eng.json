@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "tagline": "Fresh handmade pasta",
+    "locationShort": "Aia 10, Narva-Jõesuu"
+  },
+  "navigation": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About us",
+    "location": "Location",
+    "viewMenu": "View menu"
+  },
+  "hero": {
+    "eyebrow": "Fresh handmade pasta",
+    "title": "Restaurant taste. Street-food freedom.",
+    "address": "Aia 10, Narva-Jõesuu",
+    "description": "Simple, fresh and honest pasta served right in front of you — warm food, quality ingredients and the pleasant atmosphere of Narva-Jõesuu.",
+    "viewMenuButton": "View menu",
+    "findUsButton": "Find us"
+  },
+  "benefits": {
+    "freshlyMade": {
+      "title": "Made on site",
+      "description": "Fresh pasta and carefully selected toppings."
+    },
+    "qualityIngredients": {
+      "title": "Quality ingredients",
+      "description": "Clear flavours, honest ingredients and a seasonal selection."
+    },
+    "fastService": {
+      "title": "Fast service",
+      "description": "A restaurant experience in a convenient street-food format."
+    }
+  },
+  "menu": {
+    "title": "Menu",
+    "subtitle": "A place for our seasonally changing pasta menu",
+    "defaultCategory": "Classics",
+    "itemPlaceholder": {
+      "name": "Pasta name",
+      "price": "00",
+      "description": "Short description, sauce and main ingredients",
+      "imageAlt": "Menu image"
+    },
+    "fullMenuInstagramButton": "Full menu on Instagram"
+  },
+  "story": {
+    "eyebrow": "The Ollopa story",
+    "title": "Fresh pasta. Clear flavour.",
+    "description": "Ollopa combines the quality of handmade pasta with the relaxed, fast rhythm of street food.",
+    "quote": "Restaurant quality at a street-food price.",
+    "instagramButton": "Our Instagram"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Take a look at our dishes",
+    "defaultImageAlt": "Pasta"
+  },
+  "instagram": {
+    "eyebrow": "Today's menu and offers",
+    "handle": "@ollopa_pasta",
+    "followText": "Follow us on Instagram",
+    "openButton": "Open Instagram",
+    "logoAlt": "Instagram logo"
+  },
+  "findUs": {
+    "title": "Find us",
+    "addressTitle": "Address",
+    "address": "Aia 10, Narva-Jõesuu",
+    "openingHoursTitle": "Opening hours",
+    "openingHours": "Mon–Sun, hours to be announced",
+    "contactTitle": "Contact",
+    "contact": "Phone · @ollopa_pasta",
+    "description": "Opening hours, seasonal information and map directions can be displayed here.",
+    "mapsButton": "Open Google Maps"
+  },
+  "footer": {
+    "address": "Aia 10, Narva-Jõesuu",
+    "tagline": "Fresh handmade pasta",
+    "instagramHandle": "@ollopa_pasta",
+    "logoAlt": "Ollopa logo"
+  },
+  "languages": {
+    "est": "Estonian",
+    "eng": "English",
+    "rus": "Russian"
+  }
+}
