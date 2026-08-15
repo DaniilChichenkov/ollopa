@@ -99,8 +99,6 @@ export const action = async ({ request }: Route.ActionArgs) => {
 export const Login = ({ actionData }: Route.ComponentProps) => {
   const { state } = useNavigation();
 
-  console.log(actionData);
-
   return (
     <div className="w-dvw h-dvh flex justify-center items-center px-4">
       <div className="card w-full md:w-96 bg-base-100 card-md shadow-sm">

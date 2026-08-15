@@ -34,8 +34,6 @@ const FindUs = ({
     ? encodeURIComponent(locationToRender.address)
     : null;
 
-  console.log(locationEncodedAddress);
-
   const activeLocationButtonClasses =
     "cursor-pointer inline-flex items-center justify-center rounded-full border bg-[rgb(177,102,55)] px-6 py-4 text-lg font-semibold text-[rgb(253,248,235)] shadow-sm";
 

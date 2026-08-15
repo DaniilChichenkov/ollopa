@@ -26,9 +26,14 @@ const About = ({ translations }: { translations: AboutTranslations }) => {
                 "{translations.quote}"
               </p>
 
-              <button className="uppercase mt-10 cursor-pointer inline-flex items-center justify-center rounded-full border border-[rgb(184,138,72)] bg-[rgb(253,248,235)] px-6 py-4 text-lg font-semibold text-[rgb(97,63,33)] shadow-sm transition-colors hover:border-slate-400 hover:bg-slate-50 hover:text-slate-900 focus-visible:ring-4 focus-visible:ring-slate-200 focus-visible:outline-none">
+              <a
+                href="https://www.instagram.com/ollopa_pasta/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="uppercase mt-10 cursor-pointer inline-flex items-center justify-center rounded-full border border-[rgb(184,138,72)] bg-[rgb(253,248,235)] px-6 py-4 text-lg font-semibold text-[rgb(97,63,33)] shadow-sm transition-colors hover:border-slate-400 hover:bg-slate-50 hover:text-slate-900 focus-visible:ring-4 focus-visible:ring-slate-200 focus-visible:outline-none"
+              >
                 {translations.instagramButton}
-              </button>
+              </a>
             </div>
           </div>
 
