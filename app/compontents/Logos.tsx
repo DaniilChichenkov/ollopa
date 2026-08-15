@@ -23,9 +23,14 @@ const Logos = ({ translations }: { translations: LogosTranslations }) => {
           </div>
 
           <div className="flex flex-col items-center p-4">
-            <button className="uppercase cursor-pointer inline-flex items-center justify-center rounded-full bg-[rgb(177,102,55)] px-6 py-4 text-lg font-semibold text-[rgb(253,248,235)] shadow-sm transition-colors border-0">
+            <a
+              href="https://www.instagram.com/ollopa_pasta/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="uppercase cursor-pointer inline-flex items-center justify-center rounded-full bg-[rgb(177,102,55)] px-6 py-4 text-lg font-semibold text-[rgb(253,248,235)] shadow-sm transition-colors border-0"
+            >
               {translations.followText}
-            </button>
+            </a>
           </div>
         </div>
       </div>
