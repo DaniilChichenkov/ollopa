@@ -12,9 +12,9 @@
   },
   "hero": {
     "eyebrow": "Fresh handmade pasta",
-    "title": "Restaurant taste. Street-food freedom.",
+    "title": "Macaroni is cooked. Pasta is created.",
     "address": "Aia 10, Narva-Jõesuu",
-    "description": "Simple, fresh and honest pasta served right in front of you — warm food, quality ingredients and the pleasant atmosphere of Narva-Jõesuu.",
+    "description": "Macaroni is cooked. Pasta is created.",
     "viewMenuButton": "View menu",
     "findUsButton": "Find us"
   },
@@ -46,8 +46,8 @@
   },
   "story": {
     "eyebrow": "The Ollopa story",
-    "title": "Fresh pasta. Clear flavour.",
-    "description": "Ollopa combines the quality of handmade pasta with the relaxed, fast rhythm of street food.",
+    "title": "Macaroni is cooked. Pasta is created.",
+    "description": "Ollopa makes fresh pasta from high-quality Italian flour and carefully selected local ingredients. We bring the taste of Italy to you with a local twist.\n\nOur pasta is prepared quickly and consistently — always hot, fresh, and served in a generous portion.\n\nRestaurant-quality taste. Street-food speed.",
     "quote": "Restaurant quality at a street-food price.",
     "instagramButton": "Our Instagram"
   },
@@ -68,7 +68,8 @@
     "addressTitle": "Address",
     "address": "Aia 10, Narva-Jõesuu",
     "openingHoursTitle": "Opening hours",
-    "openingHours": "Mon–Sun, hours to be announced",
+    "openingHours": "Mon-Fri",
+    "openingHoursWeekend": "Sat-Sun",
     "contactTitle": "Contact",
     "contact": "Phone · @ollopa_pasta",
     "description": "Opening hours, seasonal information and map directions can be displayed here.",

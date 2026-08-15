@@ -12,9 +12,9 @@
   },
   "hero": {
     "eyebrow": "Värske käsitööpasta",
-    "title": "Restorani maitse. Tänavatoidu vabadus.",
+    "title": "Makarone keedetakse. Pastat luuakse.",
     "address": "Aia 10, Narva-Jõesuu",
-    "description": "Lihtne, värske ja aus pasta otse sinu ette — soe toit, kvaliteetne tooraine ja mõnus Narva-Jõesuu meeleolu.",
+    "description": "Makarone keedetakse. Pastat luuakse.",
     "viewMenuButton": "Vaata menüüd",
     "findUsButton": "Leia meid"
   },
@@ -46,8 +46,8 @@
   },
   "story": {
     "eyebrow": "Ollopa lugu",
-    "title": "Värske pasta. Selge maitse.",
-    "description": "Ollopa ühendab käsitööpasta kvaliteedi ja tänavatoidu vaba, kiire rütmi.",
+    "title": "Makarone keedetakse. Pastat luuakse.",
+    "description": "Ollopa teeb värsket pastat kvaliteetsest Itaalia jahust ja parimast kohalikust toorainest. Toome Teieni Itaalia maitsed kohaliku aktsendiga.\n\nPasta valmib kiiresti ning kontrollitud kvaliteediga — kuumalt, värskelt ja korraliku portsjonina.\n\nRestorani maitse. Tänavatoidu kiirus.",
     "quote": "Restorani kvaliteet, tänavatoidu hind.",
     "instagramButton": "Meie Instagram"
   },
@@ -68,7 +68,8 @@
     "addressTitle": "Aadress",
     "address": "Aia 10, Narva-Jõesuu",
     "openingHoursTitle": "Lahtiolekuajad",
-    "openingHours": "E–P, kellaajad lisatakse hiljem",
+    "openingHours": "E-R",
+    "openingHoursWeekend": "L-P",
     "contactTitle": "Kontakt",
     "contact": "Telefon · @ollopa_pasta",
     "description": "Siin saab kuvada lahtiolekuajad, hooajalise info ja teejuhise kaardile.",

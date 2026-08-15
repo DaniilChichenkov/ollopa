@@ -3,8 +3,19 @@ import MainImg from "~/src/hero.jpeg";
 import { type HeroTranslations } from "~/routes/home";
 
 const Hero = ({ translations }: { translations: HeroTranslations }) => {
+  const handleViewMenuBtnClick = () => {
+    document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleFindUsBtnClick = () => {
+    document.getElementById("location")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <section className="lg:grid lg:place-content-center bg-[rgb(244,233,207)]">
+    <section
+      className="lg:grid lg:place-content-center bg-[rgb(244,233,207)]"
+      id="header"
+    >
       <div className="mx-auto w-screen max-w-7xl px-4 py-16 sm:px-6 sm:py-24 md:grid md:grid-cols-2 md:items-center md:gap-4 lg:px-8 lg:py-32">
         <div className="max-w-prose text-left">
           <div className="relative flex justify-start items-center gap-x-2">
@@ -18,20 +29,26 @@ const Hero = ({ translations }: { translations: HeroTranslations }) => {
             {translations.title}
           </h1>
 
-          <div className="inline-flex items-center justify-center rounded-full border border-[rgb(184,138,72)] bg-[rgb(253,248,235)] px-6 py-4 text-lg font-semibold text-[rgb(97,63,33)] shadow-sm mt-4">
+          {/* <div className="inline-flex items-center justify-center rounded-full border border-[rgb(184,138,72)] bg-[rgb(253,248,235)] px-6 py-4 text-lg font-semibold text-[rgb(97,63,33)] shadow-sm mt-4">
             {translations.address}
-          </div>
+          </div> */}
 
-          <p className="mt-4 text-base text-pretty text-[rgb(58,49,38)] sm:text-lg/relaxed">
+          {/* <p className="mt-4 text-base text-pretty text-[rgb(58,49,38)] sm:text-lg/relaxed">
             {translations.description}
-          </p>
+          </p> */}
 
           <div className="mt-8 flex gap-4 sm:mt-6">
-            <button className="cursor-pointer inline-flex items-center justify-center rounded-full border bg-[rgb(177,102,55)] px-6 py-4 text-lg font-semibold text-[rgb(253,248,235)] shadow-sm">
+            <button
+              onClick={handleViewMenuBtnClick}
+              className="cursor-pointer inline-flex items-center justify-center rounded-full border bg-[rgb(177,102,55)] px-6 py-4 text-lg font-semibold text-[rgb(253,248,235)] shadow-sm"
+            >
               {translations.viewMenuButton}
             </button>
 
-            <button className="cursor-pointer inline-flex items-center justify-center rounded-full border border-[rgb(184,138,72)] bg-[rgb(253,248,235)] px-6 py-4 text-lg font-semibold text-[rgb(97,63,33)] shadow-sm">
+            <button
+              onClick={handleFindUsBtnClick}
+              className="cursor-pointer inline-flex items-center justify-center rounded-full border border-[rgb(184,138,72)] bg-[rgb(253,248,235)] px-6 py-4 text-lg font-semibold text-[rgb(97,63,33)] shadow-sm"
+            >
               {translations.findUsButton}
             </button>
           </div>
