@@ -206,7 +206,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
         {locations && locations.length ? (
           <FindUs translations={translations.findUs} locations={locations} />
         ) : null}
-        <Footer translations={translations.footer} />
+        {/* <Footer translations={translations.footer} /> */}
       </Header>
     </>
   );

@@ -58,7 +58,7 @@ const Header = ({
       />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="navbar xl:px-20 2xl:px-40 bg-[rgb(252,247,232)] w-full border-b-2 py-4 border-[rgb(207,188,146)]">
+        <div className="navbar lg:flex-col gap-y-5 xl:px-20 2xl:px-40 bg-[rgb(252,247,232)] w-full border-b-2 py-4 border-[rgb(207,188,146)]">
           <div className="mx-2 flex-1 px-2 flex justify-center md:block">
             {/* <p className="text-2xl font-lobster md:hidden"> Ollopa Pasta</p> */}
             <img
@@ -88,14 +88,14 @@ const Header = ({
                   {translations.home}
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button
                   onClick={() => handleNavSrollToSectionBtnClick("menu")}
                   className="uppercase text-[rgb(97,63,33)] font-semibold"
                 >
                   {translations.menu}
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button
                   onClick={() => handleNavSrollToSectionBtnClick("about")}
@@ -183,14 +183,14 @@ const Header = ({
               {translations.home}
             </button>
           </li>
-          <li>
+          {/* <li>
             <button
               onClick={() => handleNavSrollToSectionBtnClick("menu")}
               className="uppercase"
             >
               {translations.menu}
             </button>
-          </li>
+          </li> */}
           <li>
             <button
               onClick={() => handleNavSrollToSectionBtnClick("about")}

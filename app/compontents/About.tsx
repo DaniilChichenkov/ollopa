@@ -5,7 +5,7 @@ import { type AboutTranslations } from "~/routes/home";
 const About = ({ translations }: { translations: AboutTranslations }) => {
   return (
     <section id="about">
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-20">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start md:gap-8">
           <div className="md:order-2">
             <div className="max-w-prose md:max-w-none">
@@ -26,14 +26,14 @@ const About = ({ translations }: { translations: AboutTranslations }) => {
                 "{translations.quote}"
               </p>
 
-              <a
+              {/* <a
                 href="https://www.instagram.com/ollopa_pasta/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="uppercase mt-10 cursor-pointer inline-flex items-center justify-center rounded-full border border-[rgb(184,138,72)] bg-[rgb(253,248,235)] px-6 py-4 text-lg font-semibold text-[rgb(97,63,33)] shadow-sm transition-colors hover:border-slate-400 hover:bg-slate-50 hover:text-slate-900 focus-visible:ring-4 focus-visible:ring-slate-200 focus-visible:outline-none"
               >
                 {translations.instagramButton}
-              </a>
+              </a> */}
             </div>
           </div>
 
