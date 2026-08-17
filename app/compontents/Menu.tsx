@@ -109,9 +109,14 @@ const Menu = ({
       </div>
 
       <div className="w-full flex justify-center">
-        <button className="uppercase cursor-pointer inline-flex items-center justify-center rounded-full border bg-[rgb(97,63,33)] px-6 py-4 text-lg font-semibold text-[rgb(253,248,235)] shadow-sm transition-colors focus-visible:ring-4 focus-visible:ring-indigo-200 focus-visible:outline-none">
+        <a
+          href="https://www.instagram.com/ollopa_pasta/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="uppercase cursor-pointer inline-flex items-center justify-center rounded-full border bg-[rgb(97,63,33)] px-6 py-4 text-lg font-semibold text-[rgb(253,248,235)] shadow-sm transition-colors focus-visible:ring-4 focus-visible:ring-indigo-200 focus-visible:outline-none"
+        >
           {translations.fullMenuInstagramButton}
-        </button>
+        </a>
       </div>
     </section>
   );

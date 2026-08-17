@@ -6,8 +6,8 @@ import { type FeaturesTranslations } from "~/routes/home";
 
 const Features = ({ translations }: { translations: FeaturesTranslations }) => {
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3 bg-[rgb(247,240,226)] rounded-3xl border-2 border-[rgb(207,188,146)]">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 w-full">
+      <div className="mt-8 w-full grid grid-cols-1 gap-8 md:grid-cols-3 bg-[rgb(247,240,226)] rounded-3xl border-2 border-[rgb(207,188,146)]">
         <div
           className="relative rounded-lg p-6
             after:absolute
@@ -39,9 +39,9 @@ const Features = ({ translations }: { translations: FeaturesTranslations }) => {
             {translations.freshlyMade.title}
           </h3>
 
-          <p className="mt-2 text-pretty text-gray-700">
+          {/* <p className="mt-2 text-pretty text-gray-700">
             {translations.freshlyMade.description}
-          </p>
+          </p> */}
         </div>
 
         <div
@@ -75,9 +75,9 @@ const Features = ({ translations }: { translations: FeaturesTranslations }) => {
             {translations.qualityIngredients.title}
           </h3>
 
-          <p className="mt-2 text-pretty text-gray-700">
+          {/* <p className="mt-2 text-pretty text-gray-700">
             {translations.qualityIngredients.description}
-          </p>
+          </p> */}
         </div>
 
         <div
@@ -93,9 +93,9 @@ const Features = ({ translations }: { translations: FeaturesTranslations }) => {
             {translations.fastService.title}
           </h3>
 
-          <p className="mt-2 text-pretty text-[rgb(114,101,79)]">
+          {/* <p className="mt-2 text-pretty text-[rgb(114,101,79)]">
             {translations.fastService.description}
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
