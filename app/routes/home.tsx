@@ -54,7 +54,7 @@ export function meta({ params }: Route.MetaArgs) {
 
   const currentSeo = seo[currentLang];
 
-  const baseUrl = "http://localhost:5173";
+  const baseUrl = "https://ollopa.ee";
   const currentUrl = `${baseUrl}/${currentLang}`;
 
   return [
