@@ -44,9 +44,9 @@ const Menu = ({
             {translations.title}
           </h2>
 
-          <p className="mx-auto mt-4 max-w-md  uppercase text-[rgb(177,102,55)]">
+          {/* <p className="mx-auto mt-4 max-w-md  uppercase text-[rgb(177,102,55)]">
             {translations.subtitle}
-          </p>
+          </p> */}
 
           <div className="divider before:bg-[rgb(184,138,72)] after:bg-[rgb(184,138,72)]">
             <Diamond size={50} fill="rgb(184,138,72)" color="rgb(184,138,72)" />
@@ -61,7 +61,7 @@ const Menu = ({
             >
               <div className="w-full flex flex-col items-start">
                 {/* Header */}
-                <p className="uppercase text-[rgb(177,102,55)] font-semibold break-all">
+                <p className="uppercase text-[rgb(177,102,55)] font-semibold wrap-break-word">
                   {menu[`title_${lang!}`]}
                 </p>
                 <div className="divider before:h-px after:h-px py-0 my-0 before:bg-[rgb(184,138,72)] after:bg-[rgb(184,138,72)]"></div>
@@ -72,7 +72,7 @@ const Menu = ({
                     <div className="w-full py-4">
                       <div className="w-full flex justify-between items-center text-xl">
                         <div className="flex justify-start items-center flex-wrap">
-                          <p className="text-[rgb(97,63,33)] wrap-break-words break-all">
+                          <p className="text-[rgb(97,63,33)] wrap-break-word">
                             {menuRow[`title_${lang!}`]}
                           </p>
                         </div>
@@ -81,7 +81,7 @@ const Menu = ({
                           <Euro strokeWidth={2.5} size={15} />
                         </div>
                       </div>
-                      <p className="text-[rgb(114,101,79)] mt-2 break-all">
+                      <p className="text-[rgb(114,101,79)] mt-2 wrap-break-word">
                         {menuRow[`description_${lang!}`]}
                       </p>
 

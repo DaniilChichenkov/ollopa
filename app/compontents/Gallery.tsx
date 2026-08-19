@@ -61,7 +61,26 @@ const Gallery = ({
           ))}
         </div>
 
-        <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="carousel rounded-box mt-8 space-x-4 p-4">
+          {galleries.map((gallery) =>
+            gallery.id === currentGallery
+              ? gallery.items.map((image) => (
+                  <div
+                    className="carousel-item"
+                    key={`${gallery.id}-${image.id}`}
+                  >
+                    <img
+                      src={`/resources/gallery-item-image/${image.file_name}`}
+                      alt=""
+                      className="h-87.5 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-112.5 rounded-2xl"
+                    />
+                  </div>
+                ))
+              : null,
+          )}
+        </div>
+
+        {/* <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {galleries.map((gallery) =>
             gallery.id === currentGallery
               ? gallery.items.map((image) => (
@@ -77,7 +96,7 @@ const Gallery = ({
                 ))
               : null,
           )}
-        </ul>
+        </ul> */}
       </div>
     </section>
   );
