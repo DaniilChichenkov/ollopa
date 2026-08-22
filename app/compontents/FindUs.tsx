@@ -95,15 +95,19 @@ const FindUs = ({
                 </div>
 
                 {/* Working hours weekend */}
-                <div className="w-full flex justify-start items-center">
-                  <p className="text-[rgb(58,49,38)] uppercase text-lg font-semibold">
-                    {translations.openingHoursWeekend}{" "}
-                    <span className="ml-3">
-                      {locationToRender.weekendHoursFrom}-
-                      {locationToRender.weekendHoursTo}
-                    </span>
-                  </p>
-                </div>
+                {locationToRender.weekendHoursFrom ||
+                locationToRender.weekendHoursTo ? (
+                  <div className="w-full flex justify-start items-center">
+                    <p className="text-[rgb(58,49,38)] uppercase text-lg font-semibold">
+                      {translations.openingHoursWeekend}{" "}
+                      <span className="ml-3">
+                        {locationToRender.weekendHoursFrom}-
+                        {locationToRender.weekendHoursTo}
+                      </span>
+                    </p>
+                  </div>
+                ) : null}
+
                 <p className="uppercase text-[rgb(177,102,55)] font-semibold mt-5">
                   {translations.contactTitle}
                 </p>

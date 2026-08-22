@@ -56,9 +56,13 @@ export const action = async ({ request, params }: Route.ActionArgs) => {
       const tel = getRequiredString(formData, "tel");
       const weekHoursFrom = getRequiredString(formData, "weekHoursFrom");
       const weekHoursTo = getRequiredString(formData, "weekHoursTo");
-      const weekendHoursFrom = getRequiredString(formData, "weekendHoursFrom");
-      const weekendHoursTo = getRequiredString(formData, "weekendHoursTo");
+      // const weekendHoursFrom = getRequiredString(formData, "weekendHoursFrom");
+      // const weekendHoursTo = getRequiredString(formData, "weekendHoursTo");
       const itemToChange = getRequiredString(formData, "itemToChange");
+
+      const weekendHoursFrom =
+        (formData.get("weekendHoursFrom") as string) ?? "";
+      const weekendHoursTo = (formData.get("weekendHoursTo") as string) ?? "";
 
       const { updateLocation } = await import("~/db/location.server");
       updateLocation(
@@ -89,8 +93,12 @@ export const action = async ({ request, params }: Route.ActionArgs) => {
       const tel = getRequiredString(formData, "tel");
       const weekHoursFrom = getRequiredString(formData, "weekHoursFrom");
       const weekHoursTo = getRequiredString(formData, "weekHoursTo");
-      const weekendHoursFrom = getRequiredString(formData, "weekendHoursFrom");
-      const weekendHoursTo = getRequiredString(formData, "weekendHoursTo");
+      // const weekendHoursFrom = getRequiredString(formData, "weekendHoursFrom");
+      // const weekendHoursTo = getRequiredString(formData, "weekendHoursTo");
+
+      const weekendHoursFrom =
+        (formData.get("weekendHoursFrom") as string) ?? "";
+      const weekendHoursTo = (formData.get("weekendHoursTo") as string) ?? "";
 
       createLocation(
         address,
@@ -331,7 +339,6 @@ const DashboardManageLocation = ({
                     type="time"
                     className="input"
                     name="weekendHoursFrom"
-                    required
                     defaultValue={locationToChange.weekendHoursFrom}
                   />
                 </div>
@@ -344,7 +351,6 @@ const DashboardManageLocation = ({
                     type="time"
                     className="input"
                     name="weekendHoursTo"
-                    required
                     defaultValue={locationToChange.weekendHoursTo}
                   />
                 </div>
@@ -471,24 +477,14 @@ const DashboardManageLocation = ({
               <div className="w-5/12">
                 <p className="lael">Alates:</p>
 
-                <input
-                  type="time"
-                  className="input"
-                  name="weekendHoursFrom"
-                  required
-                />
+                <input type="time" className="input" name="weekendHoursFrom" />
               </div>
 
               {/* To */}
               <div className="w-5/12">
                 <p className="lael">Kuni:</p>
 
-                <input
-                  type="time"
-                  className="input"
-                  name="weekendHoursTo"
-                  required
-                />
+                <input type="time" className="input" name="weekendHoursTo" />
               </div>
             </fieldset>
           </Form>

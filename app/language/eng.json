@@ -18,20 +18,20 @@
     "viewMenuButton": "View menu",
     "findUsButton": "Find us"
   },
-  "benefits": {
-    "freshlyMade": {
-      "title": "Made on site",
-      "description": "Fresh pasta and carefully selected toppings."
-    },
-    "qualityIngredients": {
-      "title": "Quality ingredients",
-      "description": "Clear flavours, honest ingredients and a seasonal selection."
-    },
-    "fastService": {
-      "title": "Fast service",
-      "description": "A restaurant experience in a convenient street-food format."
-    }
+"benefits": {
+  "freshlyMade": {
+    "title": "Freshly Made",
+    "description": "Every portion is made fresh on the spot."
   },
+  "qualityIngredients": {
+    "title": "Quality Ingredients",
+    "description": "Real ingredients, great taste."
+  },
+  "fastService": {
+    "title": "Ready in Minutes",
+    "description": "Fast, hot and fresh."
+  }
+},
   "menu": {
     "title": "Menu",
     "subtitle": "A place for our seasonally changing pasta menu",

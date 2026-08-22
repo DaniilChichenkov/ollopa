@@ -18,20 +18,20 @@
     "viewMenuButton": "Vaata menüüd",
     "findUsButton": "Leia meid"
   },
-  "benefits": {
-    "freshlyMade": {
-      "title": "Kohapeal valmistatud",
-      "description": "Värske pasta ja hoolikalt valitud lisandid."
-    },
-    "qualityIngredients": {
-      "title": "Kvaliteetne tooraine",
-      "description": "Selge maitse, aus koostis ja hooajaline valik."
-    },
-    "fastService": {
-      "title": "Kiire teenindus",
-      "description": "Restorani tunne mugavas tänavatoidu vormis."
-    }
+"benefits": {
+  "freshlyMade": {
+    "title": "Värskelt valmistatud",
+    "description": "Valmistame iga portsu kohapeal."
   },
+  "qualityIngredients": {
+    "title": "Kvaliteetsed koostisosad",
+    "description": "Päris tooraine, hea maitse."
+  },
+  "fastService": {
+    "title": "Valmis minutitega",
+    "description": "Kiire, kuum ja värske."
+  }
+},
   "menu": {
     "title": "Menüü",
     "subtitle": "Koht hooajaliselt muutuva pastamenüü jaoks",
@@ -87,3 +87,4 @@
     "rus": "Vene"
   }
 }
+

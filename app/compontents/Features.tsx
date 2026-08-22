@@ -1,7 +1,9 @@
 // rgb(214,197,162)
-import clock from "~/src/features-clock.png";
-import circle from "~/src/features-circle.png";
-import wheat from "~/src/features-wheat.png";
+
+import first from "~/src/freshly_prepared.svg";
+import second from "~/src/quality_ingredients.svg";
+import third from "~/src/quick_service.svg";
+
 import { type FeaturesTranslations } from "~/routes/home";
 
 const Features = ({ translations }: { translations: FeaturesTranslations }) => {
@@ -32,16 +34,16 @@ const Features = ({ translations }: { translations: FeaturesTranslations }) => {
             items-center text-center"
         >
           <div className="inline-flex rounded-lg p-3 ">
-            <img src={circle} className="size-20" />
+            <img src={first} className="size-20" />
           </div>
 
           <h3 className="uppercase mt-4 text-lg font-semibold text-[rgb(76,87,52)]">
             {translations.freshlyMade.title}
           </h3>
 
-          {/* <p className="mt-2 text-pretty text-gray-700">
+          <p className="mt-2 text-pretty text-gray-700">
             {translations.freshlyMade.description}
-          </p> */}
+          </p>
         </div>
 
         <div
@@ -68,16 +70,16 @@ const Features = ({ translations }: { translations: FeaturesTranslations }) => {
             items-center text-center"
         >
           <div className="inline-flex rounded-lg p-3 ">
-            <img src={wheat} className="size-20" />
+            <img src={second} className="size-20" />
           </div>
 
           <h3 className="uppercase mt-4 text-lg font-semibold text-[rgb(76,87,52)]">
             {translations.qualityIngredients.title}
           </h3>
 
-          {/* <p className="mt-2 text-pretty text-gray-700">
+          <p className="mt-2 text-pretty text-gray-700">
             {translations.qualityIngredients.description}
-          </p> */}
+          </p>
         </div>
 
         <div
@@ -86,16 +88,16 @@ const Features = ({ translations }: { translations: FeaturesTranslations }) => {
             items-center text-center"
         >
           <div className="inline-flex rounded-lg p-3 ">
-            <img src={clock} className="size-20" />
+            <img src={third} className="size-20" />
           </div>
 
           <h3 className="uppercase mt-4 text-lg font-semibold text-[rgb(76,87,52)]">
             {translations.fastService.title}
           </h3>
 
-          {/* <p className="mt-2 text-pretty text-[rgb(114,101,79)]">
+          <p className="mt-2 text-pretty text-[rgb(114,101,79)]">
             {translations.fastService.description}
-          </p> */}
+          </p>
         </div>
       </div>
     </div>
