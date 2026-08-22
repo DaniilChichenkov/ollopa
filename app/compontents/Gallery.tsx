@@ -64,8 +64,9 @@ const Gallery = ({
         <div className="carousel rounded-box mt-8 space-x-4 p-4">
           {galleries.map((gallery) =>
             gallery.id === currentGallery
-              ? gallery.items.map((image) => (
+              ? gallery.items.map((image, i) => (
                   <div
+                    id={`item${i + 1}`}
                     className="carousel-item"
                     key={`${gallery.id}-${image.id}`}
                   >
@@ -75,6 +76,21 @@ const Gallery = ({
                       className="h-87.5 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-112.5 rounded-2xl"
                     />
                   </div>
+                ))
+              : null,
+          )}
+        </div>
+        <div className="w-full justify-center gap-2 py-2 hidden lg:flex mt-3">
+          {galleries.map((gallery) =>
+            gallery.id === currentGallery
+              ? gallery.items.map((image, i) => (
+                  <a
+                    key={`linkToItem${i + 1}`}
+                    href={`#item${i + 1}`}
+                    className="btn btn-sm"
+                  >
+                    {i + 1}
+                  </a>
                 ))
               : null,
           )}
